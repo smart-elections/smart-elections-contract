@@ -1,5 +1,5 @@
 const main = async () => {
-    const contractFactory = await ethers.getContractFactory('Twitter');
+    const contractFactory = await ethers.getContractFactory('Election');
     const contract = await contractFactory.deploy();
     await contract.deployed();
 
